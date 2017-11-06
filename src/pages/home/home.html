@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      what in qrcode
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button full (click)="qrcode()">扫一扫</button>
+  <div style="margin-top: 20px">
+    二维码内容:
+    <div>
+      {{code}}
+    </div>
+  </div>
+</ion-content>
