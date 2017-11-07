@@ -24,4 +24,8 @@ export class HomePage {
     });
   }
 
+  reset(){
+    this.code={};
+  }
+
 }

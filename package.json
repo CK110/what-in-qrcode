@@ -9,7 +9,8 @@
         "build": "ionic-app-scripts build",
         "lint": "ionic-app-scripts lint",
         "ionic:build": "ionic-app-scripts build",
-        "ionic:serve": "ionic-app-scripts serve"
+        "ionic:serve": "ionic-app-scripts serve",
+        "codepush-ios": "code-push release-cordova WAHTINQRCODE-ios ios -m"
     },
     "dependencies": {
         "@angular/common": "4.4.4",
@@ -27,7 +28,7 @@
         "@ionic-native/status-bar": "4.3.2",
         "@ionic/storage": "2.0.1",
         "code-push": "^2.0.1-beta",
-        "cordova-ios": "^4.5.3",
+        "cordova-ios": "^4.4.0",
         "cordova-plugin-code-push": "^1.9.8-beta",
         "cordova-plugin-compat": "^1.2.0",
         "cordova-plugin-device": "^1.1.4",

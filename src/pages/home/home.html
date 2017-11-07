@@ -8,10 +8,13 @@
 
 <ion-content padding>
   <button ion-button full (click)="qrcode()">扫一扫</button>
+  <button ion-button full (click)="reset()">重置</button>
+
   <div style="margin-top: 20px">
     二维码内容:
     <div>
       {{code | json}}
     </div>
   </div>
+
 </ion-content>
