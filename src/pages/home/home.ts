@@ -8,7 +8,7 @@ import {BarcodeScanner} from "@ionic-native/barcode-scanner";
 })
 export class HomePage {
 
-  code:string='';
+  code:any;
   constructor(public navCtrl: NavController,private barcodeScanner: BarcodeScanner) {
 
   }
